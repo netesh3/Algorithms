@@ -5,6 +5,8 @@ public class FindMedianOfTwoSortedArrayUnEqualSize {
         int a[]={1,3,8,9,15};
         int b[]={7,11,18,19,21,25,28};//1,3,7,8,9,11,15,16,18,19,21,25,28
         System.out.println(findMedian(a,b,0,a.length,0,b.length));
+        StringBuilder sb = new StringBuilder("S");
+        System.out.println(sb.length());
     }
     public static double findMedian(int[] nums1,int nums2[], int starta,int enda,int startb,int endb){
         int partx= (starta+enda)/2;
