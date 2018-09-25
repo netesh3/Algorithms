@@ -43,3 +43,6 @@ public class SearchSubStringUsingRobinAlgo {
         return false;
     }
 }
+
+
+//The average and best case running time of the Rabin-Karp algorithm is O(n+m), but its worst-case time is O(nm).
