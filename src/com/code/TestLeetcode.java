@@ -28,17 +28,6 @@ public class TestLeetcode {
                     str+=binary.charAt(i);
                 }
             }
-////            System.out.println(str);
-//            int f1 = S.indexOf(str);
-//            int l1 = f1+str.length()-1;
-////            System.out.println(f1 +" == "+l1);
-//            if(f1>0 && l1<S.length()-1){
-//                flag=  S.contains("0"+str+"0");
-//            }else if(f1==0){
-//                flag = S.contains(str+"0");
-//            }else if(l1 == S.length()-1){
-//                flag = S.contains("0"+str);
-//            }
             flag=  S.contains(str);
             if(!flag){
                 return false;
