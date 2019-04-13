@@ -30,6 +30,4 @@ public class PermutationOfString2 {
         charArray[j] = temp;
         return String.valueOf(charArray);
     }
-
-
 }
