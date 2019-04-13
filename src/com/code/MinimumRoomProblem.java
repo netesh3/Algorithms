@@ -4,17 +4,18 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-class Interval {
-    int start;
-    int end;
 
-    public Interval(int start, int end) {
-        this.start = start;
-        this.end = end;
-    }
-}
 
 public class MinimumRoomProblem {
+    static class Interval {
+        int start;
+        int end;
+
+        public Interval(int start, int end) {
+            this.start = start;
+            this.end = end;
+        }
+    }
 
     public static void main(String[] args) {
         Interval interval1 = new Interval(0,30);

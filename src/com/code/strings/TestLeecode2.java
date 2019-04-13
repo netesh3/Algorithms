@@ -2,12 +2,6 @@ package com.code.strings;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.LongAccumulator;
-import java.util.concurrent.atomic.LongAdder;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class TestLeecode2 {
@@ -37,20 +31,7 @@ public class TestLeecode2 {
         System.out.println(ai +" == "+bj);
         Arrays.stream(B).forEach(s-> System.out.print(s+" "));
         System.out.println();
-//        System.out.println(A[ai]+"  "+A[bj]+"  "+ai+"  "+bj);
         int num = Runtime.getRuntime().availableProcessors();
         System.out.println(num);
-    }
-
-
-
-}
-
-class Element{
-    int num;
-    int index;
-    Element(int num,int index){
-        this.num=num;
-        this.index=index;
     }
 }
