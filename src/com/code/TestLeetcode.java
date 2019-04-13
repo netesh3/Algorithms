@@ -1,4 +1,4 @@
-package com.code.strings;
+package com.code;
 
 public class TestLeetcode {
     public static void main(String[] args) {

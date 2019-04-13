@@ -1,4 +1,4 @@
-package com.code.strings;
+package com.code;
 
 import java.util.Arrays;
 import java.util.Iterator;
